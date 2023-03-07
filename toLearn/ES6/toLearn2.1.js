@@ -17,7 +17,6 @@ button.addEventListener("click", () => {
   console.log(this);
 });
 
-//
 const manju = {
   name: "Manju",
   age: 5,

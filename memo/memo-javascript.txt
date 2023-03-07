@@ -1,0 +1,179 @@
+---
+
+JavaScript
+
+설치, 에러, 실습에 어려운 사항들 메모
+
+---
+
+🍫 Javascript for Beginners
+
+-- Theory
+
+Variables
+Functions
+Data Types
+Arrays, Objects
+DOM Functions
+Events
+if / else / for
+
+-- Function
+
+JS Clock
+JS To Do List
+Get Geolocation
+Get Weather Information
+Deploy to Github Pages
+
+---
+
+🍫 Build a Meme Maker
+
+-- Theory
+
+HTML5 Canvas
+Mouse Events
+2D Context
+2D Painting
+Brush Size
+Image Saving
+
+---
+
+🍫 ES6, ES7, ES8, ES9
+
+-- Theory
+
+Variables
+Functions
+Strings
+Arrays
+Destructuring
+Rest and Spread
+
+-- Features
+
+For Of Loop
+Promises
+Async / Await
+Classes
+Symbol, Set and Map
+Generators and Maps
+
+---
+
+🥞 ES6, ES7, ES8, ES9
+
+Camel Case
+: JavaScript에서 주로 사용되는 관습으로 myAge와 같이 myage대신 단어가 연결될 때 대문자로 작성하는 관습
+
+
+🍫 Variables, Let and Const
+
+var 변수 = 값;
+: ES6 이전의 변수를 지정할 때. 변수를 어디에서든 변경할 수 있는 단점이 있다.
+
+const 변수 = 값;
+: 변하지 않는 변수. 기본적으로 var대신 default로는 const를 사용하는 것이 바람직하다.
+
+let 변수 = 값;
+: 변하는 변수
+
+---
+
+🍫 Dead Zone
+
+temporal (일시적인) dead zone
+: let은 호이스팅( hoisting )으로 인한 변수의 위치와 관련된 Error를 알려준다. 
+
+--🍬 JavaScript는 호이스팅( hoisting )으로 인해 변수의 선언 위치를 잘못 선언한 실수를 하여도 Error를 알려주지 않는다.
+
+--🍬 호이스팅 ( hoisting )
+: JavaScript를 실행전에 var와 같은 변수들을 맨 위로 올리는 작업을 일컫는다.
+
+var 변수이름 = 값; 
+
+: 와 같은 문장을 아래와 같이 바꾼다.
+
+var 변수이름;
+변수이름 = 값;
+
+---
+
+🥞 1.2 Block Scope
+
+/ { }
+: 중괄호를 bubble( 비눗방울 )이라고 연상해 생각하면 된다.
+
+/ Block Scope
+: const, let은 지역 메서드 안에 지역 변수로만 쓰일 수 있다. 
+
+--🍬 Java에서 인스턴스클래스, 외부 클래스와 내부 클래스의 영역에서의 변수의 특성과 비슷하다.
+
+/ function Scope
+: var는 지역 메서드 안에 지역 변수라도 외부에서 접근이 가능하다. 값이 임의로 변경될 우려가 있다.
+
+---
+
+🥞 1.3 The future of 'var'
+
+🥞 2.0 FUNCTIONS, Arrow Functions
+
+.map( )
+: Key와 Value의 구성을 갖는 Array 생성
+
+---
+
+🥞 2.1 'this' in Arrow Fuctions
+
+this
+: 만약 document.querySelector로 접근한 참조변수가 있을 경우 this는 그 참조변수의 HTMLElement를 가리킨다.
+
+-🥞 주의! Arrow Fuctions은 this가 windows Object를 가리킨다.
+
+---
+
+🥞 2.2 Arrow Functions in the Real World
+
+{ }
+: implicit( 맹목적인 ) return을 사용할 수 없다.
+
+( )
+: return을 사용할 수 있따.
+
+======
+
+🥞 Banilla JS, Javascript for Beginners
+
+🥞 1.2 Requirements, 1.3 Software Requirements, 1.4 Why JS ⅰ
+
+Chrome, Brave, Safari, Edge, Naver whale
+
+🥞 1.5 Why JS ⅱ
+
+🥞 1.6 Online IDE
+
+replit.com
+: VSCode가 없을 시에 에디터로 사용할 수 있는 사이트
+
+
+======
+
+🥞 Banilla JS, Build a Meme maker
+
+🥞 #0.1 Welcome 
+
+
+---
+
+🍫 JavaScript ( Jpub )
+
+extJS
+: JavaScript Framework로 주로 도표형 디자인을 만든다
+
+---
+
+SyntaxError : Identifier 'fruit' has already been declared
+
+TypeError : Assignment to constant variable
