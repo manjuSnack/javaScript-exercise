@@ -118,7 +118,7 @@ var 변수이름;
 
 🥞 1.3 The future of 'var'
 
-🥞 2.0 FUNCTIONS, Arrow Functions
+🥞 #2.0 FUNCTIONS, Arrow Functions
 
 .map( )
 : Key와 Value의 구성을 갖는 Array 생성
@@ -130,7 +130,7 @@ var 변수이름;
 this
 : 만약 document.querySelector로 접근한 참조변수가 있을 경우 this는 그 참조변수의 HTMLElement를 가리킨다.
 
--🥞 주의! Arrow Fuctions은 this가 windows Object를 가리킨다.
+-🥤 주의! Arrow Fuctions은 this가 windows Object를 가리킨다.
 
 ---
 
@@ -142,6 +142,12 @@ this
 ( )
 : return을 사용할 수 있따.
 
+---
+
+🥞 2.3 Default Values
+
+
+
 ======
 
 🥞 Banilla JS, Javascript for Beginners
@@ -150,6 +156,8 @@ this
 
 Chrome, Brave, Safari, Edge, Naver whale
 
+---
+
 🥞 1.5 Why JS ⅱ
 
 🥞 1.6 Online IDE
@@ -157,12 +165,21 @@ Chrome, Brave, Safari, Edge, Naver whale
 replit.com
 : VSCode가 없을 시에 에디터로 사용할 수 있는 사이트
 
+---
+
+🥞 #2 WELCOME TO JAVASCRIPT, 2.0 Your First JS Project
+
 
 ======
 
 🥞 Banilla JS, Build a Meme maker
 
-🥞 #0.1 Welcome 
+🥞 #1 THE CANVAS API, 0.1 Welcome 
+
+🥞 0.2 Requirements
+
+🥞 0.3 Project Setup
+
 
 
 ---
