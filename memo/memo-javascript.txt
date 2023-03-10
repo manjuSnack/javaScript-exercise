@@ -146,7 +146,18 @@ this
 
 🥞 2.3 Default Values
 
+🥞 # 3 STRINGS, #3.0 Sexy Strings
 
+` `
+: backtik 키로 문자열을 출력할 때 + 기호를 쓰지 않고도 문자열의 공백과 함께 작성하기 수월하다. 함수의 참조변수도 넣을 수 있다.
+
+함수이름( )
+: 반환값이 없을 경우, NaN ( Not a Number )과 같은 기본값을 반환
+
+함수이름
+: 함수에 작성된 코드가 반환
+
+--🥤 Python에 tax_calculator, make juice, Age drink Calculator, Lists, Tuples, Dicts, HTML Status Code, Web Scrapper 작성해보기
 
 ======
 

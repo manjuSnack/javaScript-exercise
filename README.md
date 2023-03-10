@@ -33,7 +33,7 @@ To do
 --🥞 ES6, ES7, ES8, ES9 ( ES6의 정석 )
 
 - [x] Variables
-- [] Functions
+- [x] Functions
 - [] Strings
 - [] Arrays
 - [] Destructuring
